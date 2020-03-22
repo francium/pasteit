@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>PasteIt</title>
+
+  <link rel="stylesheet" href="styles.scss">
+</head>
+<body>
+  <div id="header" class="navbar bg-dark d-flex flex-row">
+    <div id="brand" class="text-light flex-grow-1 align-self-start">
+      <span class="h3">
+        PasteIt
+      </span>
+      <span class="h4">
+        <i>- share with style</i>
+
+      </span>
+
+      <span class="h4 ml-4">
+        <a class="text-light"
+           href="https://github.com/francium/pasteit">
+          source
+        </a>
+      </span>
+    </div> <!-- #brand -->
+
+    <div id="tool-box"
+         class="input-group align-self-end">
+      <div id="new-button"
+           class="input-group-prepend">
+        <button class="btn btn-success">
+          new
+        </button>
+      </div>
+      <input id="share-link"
+             class="form-control"
+             type="text"
+             readonly>
+      <div id ="share-link-copy-button" class="input-group-append">
+        <button class="btn btn-warning">
+          copy
+        </button>
+      </div>
+    </div> <!-- #tool-box -->
+  </div> <!-- #header -->
+
+  <div id="content">
+    <div id="paste-box">
+    </div>
+  </div> <!-- #content -->
+
+  <script src="main.js"></script>
+</body>
+</html>

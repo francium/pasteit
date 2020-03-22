@@ -1,0 +1,21 @@
+{
+  "name": "pasteit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.3"
+  },
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "lz-string": "^1.4.4",
+    "normalize.css": "^8.0.1"
+  }
+}
